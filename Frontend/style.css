@@ -1,31 +1,68 @@
-
 body {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 header {
-    border: 1px solid white;
-    padding-inline: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  border: 1px solid white;
+  padding-inline: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 button {
-    background-color: white;
-    border: 0;
-    padding-inline: 30px;
-    padding-block: 10px;
-    transition: background 0.3s;
-    border-radius: 20px;
+  background-color: white;
+  border: 0;
+  padding-inline: 30px;
+  padding-block: 10px;
+  transition: background 0.3s;
+  border-radius: 20px;
 }
 
 button:hover {
-    background-color: #808080a0;
+  background-color: #808080a0;
 }
 
+.loginBtn {
+  background-color: black;
+  color: white;
+}
 .login {
-    background-color: black;
-    color: white;
+  /* background-color: black; */
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 370px;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 10px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.email-input {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+.password-input {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+.login-login {
+  width: 120px;
+  height: 30px;
+  color: rgb(211, 37, 138);
+  background-color: #e28cc0;
+  border: 1px solid white;
+}
+.login-login:hover {
+  background-color: #b93a87;
+  color: white;
 }
