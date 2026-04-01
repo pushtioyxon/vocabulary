@@ -3,3 +3,29 @@ body {
     background-color: black;
     color: white;
 }
+
+header {
+    border: 1px solid white;
+    padding-inline: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    background-color: white;
+    border: 0;
+    padding-inline: 30px;
+    padding-block: 10px;
+    transition: background 0.3s;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #808080a0;
+}
+
+.login {
+    background-color: black;
+    color: white;
+}
